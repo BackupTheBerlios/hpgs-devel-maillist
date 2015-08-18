@@ -1,0 +1,15 @@
+From wolfgang.glas at ev-i.at  Mon Feb  7 09:44:31 2005
+From: wolfgang.glas at ev-i.at (Wolfgang Glas)
+Date: Mon, 7 Feb 2005 09:44:31 +0100
+Subject: [Hpgs-devel] hpgs-0.5.1 including doxygen docu ist out.
+Message-ID: <200502070944.31360.wolfgang.glas@ev-i.at>
+
+Hi all,
+
+   After the inclusion of PCL images in hpgs-0.5.0, I took the chance and 
+worked out a brand new doxygen-documentation for hpgs-0.5.1, which can also 
+be accessed through the documentation link at http://hpgs.berlios.de
+
+  Wolfgang
+
+

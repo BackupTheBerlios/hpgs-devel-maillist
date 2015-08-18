@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Hpgs-devel] Need advice on how to handle failed conversion
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/hpgs-devel/2009-February/index.html" >
+   <LINK REL="made" HREF="mailto:hpgs-devel%40lists.berlios.de?Subject=Re%3A%20%5BHpgs-devel%5D%20Need%20advice%20on%20how%20to%20handle%20failed%20conversion&In-Reply-To=%3C0EE16495FFCFFE49BFE222DA0D5FF2DF03D31777%40mailbe16%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Hpgs-devel] Need advice on how to handle failed conversion</H1>
+    <B>Brantley, Huey</B> 
+    <A HREF="mailto:hpgs-devel%40lists.berlios.de?Subject=Re%3A%20%5BHpgs-devel%5D%20Need%20advice%20on%20how%20to%20handle%20failed%20conversion&In-Reply-To=%3C0EE16495FFCFFE49BFE222DA0D5FF2DF03D31777%40mailbe16%3E"
+       TITLE="[Hpgs-devel] Need advice on how to handle failed conversion">huey.brantley at Vanderbilt.Edu
+       </A><BR>
+    <I>Fri Feb 27 16:10:23 CET 2009</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#1">[ date ]</a>
+              <a href="thread.html#1">[ thread ]</a>
+              <a href="subject.html#1">[ subject ]</a>
+              <a href="author.html#1">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I have some conversions failing with pcl image error exceeding 256
+colors.   Any advice on what can I do about these?
+
+ 
+
+$ hpgs -d png_256 -r 200 --dump-png=file 125-84-850B-H7.1.PLT
+
+BoundingBox: 0 0 2493.99 1697.95.
+
+Unknown command EC found at file position 26.
+
+Unknown PCL command &amp;a0N found.
+
+Unknown PCL command *t11J found.
+
+Dumping inline PCL image to file &lt;file0001.png&gt;.
+
+Error: Cannot process plot file 125-84-850B-H7.1.PLT: Error in PCL
+command at file position 1320714.: Error in PCL image: drawimage error:
+Number of indexed colors exceeds 256.
+
+ 
+
+Huey Brantley
+
+Campus Planning &amp; Construction
+
+Facilities Information Services
+
+Vanderbilt University
+
+330 24th Ave. S., 106 Bryan Bldg., Nashville, TN 37240
+
+Voice: 615-343-6649
+
+Mobile: 615-521-5553
+
+Fax: 615-322-6179
+
+<A HREF="http://cpc-fis.vanderbilt.edu">http://cpc-fis.vanderbilt.edu</A> &lt;<A HREF="http://cpc-fis.vanderbilt.edu/">http://cpc-fis.vanderbilt.edu/</A>&gt; 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="https://lists.berlios.de/pipermail/hpgs-devel/attachments/20090227/47e0d61c/attachment.html">https://lists.berlios.de/pipermail/hpgs-devel/attachments/20090227/47e0d61c/attachment.html</A>&gt;
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#1">[ date ]</a>
+              <a href="thread.html#1">[ thread ]</a>
+              <a href="subject.html#1">[ subject ]</a>
+              <a href="author.html#1">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/hpgs-devel">More information about the Hpgs-devel
+mailing list</a><br>
+</body></html>

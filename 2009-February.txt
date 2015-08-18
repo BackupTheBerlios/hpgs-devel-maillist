@@ -1,0 +1,53 @@
+From huey.brantley at Vanderbilt.Edu  Fri Feb 27 16:10:23 2009
+From: huey.brantley at Vanderbilt.Edu (Brantley, Huey)
+Date: Fri, 27 Feb 2009 09:10:23 -0600
+Subject: [Hpgs-devel] Need advice on how to handle failed conversion
+Message-ID: <0EE16495FFCFFE49BFE222DA0D5FF2DF03D31777@mailbe16>
+
+I have some conversions failing with pcl image error exceeding 256
+colors.   Any advice on what can I do about these?
+
+ 
+
+$ hpgs -d png_256 -r 200 --dump-png=file 125-84-850B-H7.1.PLT
+
+BoundingBox: 0 0 2493.99 1697.95.
+
+Unknown command EC found at file position 26.
+
+Unknown PCL command &a0N found.
+
+Unknown PCL command *t11J found.
+
+Dumping inline PCL image to file <file0001.png>.
+
+Error: Cannot process plot file 125-84-850B-H7.1.PLT: Error in PCL
+command at file position 1320714.: Error in PCL image: drawimage error:
+Number of indexed colors exceeds 256.
+
+ 
+
+Huey Brantley
+
+Campus Planning & Construction
+
+Facilities Information Services
+
+Vanderbilt University
+
+330 24th Ave. S., 106 Bryan Bldg., Nashville, TN 37240
+
+Voice: 615-343-6649
+
+Mobile: 615-521-5553
+
+Fax: 615-322-6179
+
+http://cpc-fis.vanderbilt.edu <http://cpc-fis.vanderbilt.edu/> 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/hpgs-devel/attachments/20090227/47e0d61c/attachment.html>
+
